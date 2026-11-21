@@ -3,6 +3,8 @@
 Fated Rolls lets a GM decide **next d20 roll** of any player or GM, or of themselves, before it is rolled. The player rolls as usual. Works with "Dice So Nice".
 
 <img width="166" height="330" alt="image" src="https://github.com/user-attachments/assets/d2411ae0-1d17-4671-9d9e-424e0b98ca6e" />
+<img width="559" height="905" alt="image" src="https://github.com/user-attachments/assets/a724760d-043c-46d5-86c2-07420a4bd949" />
+
 
 
 
