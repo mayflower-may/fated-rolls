@@ -1,8 +1,9 @@
 # Fated Rolls
 
-Fated Rolls lets a GM decide the **next d20 roll** of any player, or of themselves, before it is rolled. The player rolls as usual. The chat card and Dice So Nice show the chosen value, and the GM is told when it gets used.
+Fated Rolls lets a GM decide **next d20 roll** of any player or GM, or of themselves, before it is rolled. The player rolls as usual. Works with "Dice So Nice".
 
-> *The power of fate is a corrupting force! Use it with caution.*
+
+
 
 ## Features
 
