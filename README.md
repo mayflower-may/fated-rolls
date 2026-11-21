@@ -2,6 +2,8 @@
 
 Fated Rolls lets a GM decide **next d20 roll** of any player or GM, or of themselves, before it is rolled. The player rolls as usual. Works with "Dice So Nice".
 
+Works with any system that uses d20s (D&D 5e, Pathfinder 2e, Starfinder, 13th Age...). Damage rolls and death saves are D&D 5e only. Tested on D&D 5e.
+
 
 
 ## Features
