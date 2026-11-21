@@ -1,0 +1,156 @@
+{
+  "FATED": {
+    "Title": "Fated Rolls",
+    "Cancel": "Cancel",
+    "Offline": "Offline",
+    "Show": "Show",
+    "Hide": "Hide",
+    "UsesTargets": "uses the targets above",
+    "State": {
+      "Ready": "Ready",
+      "Waiting": "Waiting"
+    },
+    "Value": {
+      "Heading": "Value",
+      "Fixed": "Fixed",
+      "Range": "Random range",
+      "Crit": "Critical (20)",
+      "Fumble": "Fumble (1)",
+      "Min": "Min",
+      "Max": "Max",
+      "RangeHint": "Each target and each roll gets its own value from this range, so it looks natural.",
+      "High": "High (15–19)",
+      "Middle": "Middle (10–14)",
+      "Low": "Low (2–6)",
+      "CountLabel": "For how many rolls",
+      "CountHint": "the next d20s",
+      "Apply": "Set"
+    },
+    "Target": {
+      "Heading": "Target",
+      "Hint": "you can pick more than one",
+      "Self": "Me",
+      "Everyone": "Everyone",
+      "EveryoneHint": "all connected users",
+      "Tokens": "Selected tokens",
+      "TokensHint": "their players, or the NPC itself",
+      "Npc": "NPC"
+    },
+    "Damage": {
+      "Heading": "Damage roll",
+      "Short": "damage",
+      "Max": "Maximum",
+      "Min": "Minimum",
+      "Total": "Total",
+      "TotalOf": "total {value}",
+      "TotalLabel": "Total damage",
+      "TotalHint": "sum of all damage parts of the attack; nearest possible value if the dice can't reach it",
+      "MaxHint": "Every die in the next damage roll lands on its highest face; flat bonuses are added as usual.",
+      "MinHint": "Every die in the next damage roll lands on 1; flat bonuses are added as usual.",
+      "CountLabel": "For how many damage rolls",
+      "Apply": "Set damage"
+    },
+    "Death": {
+      "Heading": "Death saving throw",
+      "Short": "death save",
+      "Hint": "used only for death saves",
+      "Stand": "Back on their feet (20)",
+      "Success": "Success (10–19)",
+      "Failure": "Failure (2–9)",
+      "Fumble": "Critical failure (1)",
+      "CountLabel": "For how many death saves",
+      "Apply": "Set death save"
+    },
+    "Luck": {
+      "Heading": "Luck statistics",
+      "Hint": "The last 20 d20s in the chat log (newest on the left; set values included). The average should be 10.5; the unluckiest is on top.",
+      "Empty": "No player d20s in the chat log.",
+      "Summary": "avg. {avg} · {count} dice",
+      "Boost": "Make their next d20 land between 12 and 17"
+    },
+    "Queued": {
+      "Heading": "Queued settings",
+      "CancelAll": "Cancel all",
+      "Empty": "Nothing is queued right now."
+    },
+    "History": {
+      "Heading": "Recent actions",
+      "Left": " ({left} left)",
+      "Set": "set → <b>{values}</b>",
+      "DamageSet": "damage set → <b>{values}</b>",
+      "DeathSet": "death save set → <b>{values}</b>",
+      "D20Used": "d20 → <b>{value}</b> used{left}",
+      "DamageUsed": "damage ({kind}) → <b>{value}</b> used{left}",
+      "DeathUsed": "death save → <b>{value}</b> used{left}",
+      "Cancelled": "cancelled",
+      "ActorSet": "{name}: set → <b>{values}</b>",
+      "ActorUsed": "{name}: d20 → <b>{value}</b> used"
+    },
+    "Notify": {
+      "D20Used": "{name}: d20 → {value} used{left}",
+      "DamageUsed": "{name}: damage ({kind}) → {value}",
+      "DeathUsed": "{name}: death save → {value}",
+      "Ready": "{name} is ready → {value}",
+      "SetSummary": "Set → {summary}",
+      "PickTarget": "Pick a target first.",
+      "NotConnected": "{name} is not connected, skipped.",
+      "NeedsLibWrapper": "Fated Rolls needs the libWrapper module.",
+      "ActorUsed": "{name}: d20 → {value} used",
+      "NoTokens": "No tokens are selected on the map.",
+      "NpcOnlyD20": "{name} has no player: only d20s can be set for NPCs.",
+      "Mercy": "Mercy: {name} rolled low {count} times in a row, their next d20 → {value}"
+    },
+    "Log": {
+      "Set": "Next d20 for {target} → {values}",
+      "DamageSet": "Next damage for {target} → {values}",
+      "DeathSet": "Next death save for {target} → {values}",
+      "Cancelled": "Settings cancelled for {target}",
+      "D20Used": "{name} used a set d20 → {value}",
+      "DamageUsed": "{name} used a set damage roll ({kind}) → {value}",
+      "DeathUsed": "{name} used a set death save → {value}",
+      "ActorSet": "Next d20 for {name} → {values}",
+      "ActorUsed": "{name} used a set d20 → {value}"
+    },
+    "Settings": {
+      "LogToChat": {
+        "Name": "Log to chat",
+        "Hint": "Every setting, cancellation and use is whispered to the GMs in chat. Players don't see it."
+      },
+      "mercyEnabled": {
+        "Name": "Mercy mode",
+        "Hint": "When a player rolls several low d20s in a row, their next d20 is quietly raised. The GM gets a notice."
+      },
+      "mercyThreshold": {
+        "Name": "Mercy: low roll is below",
+        "Hint": "A natural d20 under this number counts as a low roll."
+      },
+      "mercyStreak": {
+        "Name": "Mercy: low rolls in a row",
+        "Hint": "How many low rolls in a row before mercy steps in."
+      },
+      "mercyMin": {
+        "Name": "Mercy: lowest new value",
+        "Hint": ""
+      },
+      "mercyMax": {
+        "Name": "Mercy: highest new value",
+        "Hint": ""
+      }
+    },
+    "Keybinding": {
+      "OpenPanel": "Open the roll panel"
+    },
+    "Warning": {
+      "Title": "Fated Rolls",
+      "Text": "Before you use it! You are a Gamemaster, the entire burden of existence rests on your shoulders. The power of fate is a corrupting force! Use it with caution.<br><em>- Durukan (mayflower)</em>",
+      "Ok": "I embrace the power."
+    },
+    "Panic": {
+      "Title": "Panic Roll!",
+      "Hint": "one click: the next d20 becomes this value",
+      "Value": "Value",
+      "Everyone": "Everyone (first d20 only)",
+      "Armed": "Panic Roll! Next d20 → {value} ({target})"
+    }
+  }
+}

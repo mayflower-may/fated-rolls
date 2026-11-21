@@ -1,0 +1,156 @@
+{
+  "FATED": {
+    "Title": "Fated Rolls — Zar Ayarı",
+    "Cancel": "İptal et",
+    "Offline": "Çevrimdışı",
+    "Show": "Göster",
+    "Hide": "Gizle",
+    "UsesTargets": "hedef yukarıdaki seçim",
+    "State": {
+      "Ready": "Hazır",
+      "Waiting": "Bekliyor"
+    },
+    "Value": {
+      "Heading": "Değer",
+      "Fixed": "Sabit",
+      "Range": "Rastgele aralık",
+      "Crit": "Kritik (20)",
+      "Fumble": "Fiyasko (1)",
+      "Min": "En az",
+      "Max": "En çok",
+      "RangeHint": "Her hedef ve her atış için bu aralıktan ayrı bir değer çekilir; doğal görünür.",
+      "High": "Yüksek (15–19)",
+      "Middle": "Orta (10–14)",
+      "Low": "Düşük (2–6)",
+      "CountLabel": "Kaç atış için",
+      "CountHint": "sıradaki d20'ler",
+      "Apply": "Ayarla"
+    },
+    "Target": {
+      "Heading": "Hedef",
+      "Hint": "birden fazla seçilebilir",
+      "Self": "Ben",
+      "Everyone": "Herkes",
+      "EveryoneHint": "tüm bağlı kullanıcılar",
+      "Tokens": "Seçili tokenlar",
+      "TokensHint": "oyuncuları ya da NPC'nin kendisi",
+      "Npc": "NPC"
+    },
+    "Damage": {
+      "Heading": "Hasar zarı",
+      "Short": "hasar",
+      "Max": "En yüksek",
+      "Min": "En düşük",
+      "Total": "Toplam",
+      "TotalOf": "toplam {value}",
+      "TotalLabel": "Toplam hasar",
+      "TotalHint": "saldırının bütün hasar parçaları toplamı; zarlar yetmezse en yakın değer",
+      "MaxHint": "Sıradaki hasar atışındaki bütün zarlar en yüksek yüzüne gelir; sabit bonuslar aynen eklenir.",
+      "MinHint": "Sıradaki hasar atışındaki bütün zarlar 1'e gelir; sabit bonuslar aynen eklenir.",
+      "CountLabel": "Kaç hasar atışı için",
+      "Apply": "Hasarı ayarla"
+    },
+    "Death": {
+      "Heading": "Ölüm kurtarma zarı",
+      "Short": "ölüm kurtarma",
+      "Hint": "yalnızca ölüm kurtarmada kullanılır",
+      "Stand": "Ayağa kalksın (20)",
+      "Success": "Başarılı (10–19)",
+      "Failure": "Başarısız (2–9)",
+      "Fumble": "Kritik başarısız (1)",
+      "CountLabel": "Kaç ölüm kurtarma için",
+      "Apply": "Ölüm zarını ayarla"
+    },
+    "Luck": {
+      "Heading": "Şans istatistiği",
+      "Hint": "Sohbet kaydındaki son 20 d20 (en yenisi solda; ayarlananlar da dahil). Ortalama 10,5 olmalı; en şanssız üstte.",
+      "Empty": "Sohbet kaydında oyuncu d20'si yok.",
+      "Summary": "ort. {avg} · {count} zar",
+      "Boost": "Sıradaki d20'si 12–17 arası gelsin"
+    },
+    "Queued": {
+      "Heading": "Bekleyen ayarlar",
+      "CancelAll": "Hepsini iptal",
+      "Empty": "Şu an bekleyen ayar yok."
+    },
+    "History": {
+      "Heading": "Son işlemler",
+      "Left": " (sırada {left})",
+      "Set": "ayarlandı → <b>{values}</b>",
+      "DamageSet": "hasar ayarlandı → <b>{values}</b>",
+      "DeathSet": "ölüm kurtarma ayarlandı → <b>{values}</b>",
+      "D20Used": "d20 → <b>{value}</b> kullanıldı{left}",
+      "DamageUsed": "hasar ({kind}) → <b>{value}</b> kullanıldı{left}",
+      "DeathUsed": "ölüm kurtarma → <b>{value}</b> kullanıldı{left}",
+      "Cancelled": "iptal edildi",
+      "ActorSet": "{name}: ayarlandı → <b>{values}</b>",
+      "ActorUsed": "{name}: d20 → <b>{value}</b> kullanıldı"
+    },
+    "Notify": {
+      "D20Used": "{name}: d20 → {value} kullanıldı{left}",
+      "DamageUsed": "{name}: hasar ({kind}) → {value}",
+      "DeathUsed": "{name}: ölüm kurtarma → {value}",
+      "Ready": "{name} hazır → {value}",
+      "SetSummary": "Ayarlandı → {summary}",
+      "PickTarget": "Önce bir hedef seç.",
+      "NotConnected": "{name} bağlı değil, atlandı.",
+      "NeedsLibWrapper": "Fated Rolls için libWrapper modülü gerekli.",
+      "ActorUsed": "{name}: d20 → {value} kullanıldı",
+      "NoTokens": "Haritada seçili token yok.",
+      "NpcOnlyD20": "{name} bir oyuncuya ait değil: NPC'ler için yalnızca d20 ayarlanabilir.",
+      "Mercy": "Merhamet: {name} üst üste {count} kez düşük attı, sıradaki d20'si → {value}"
+    },
+    "Log": {
+      "Set": "{target} için sıradaki d20 → {values}",
+      "DamageSet": "{target} için sıradaki hasar → {values}",
+      "DeathSet": "{target} için sıradaki ölüm kurtarma → {values}",
+      "Cancelled": "{target} için ayarlar iptal edildi",
+      "D20Used": "{name}: ayarlanmış d20 kullanıldı → {value}",
+      "DamageUsed": "{name}: ayarlanmış hasar kullanıldı ({kind}) → {value}",
+      "DeathUsed": "{name}: ayarlanmış ölüm kurtarma kullanıldı → {value}",
+      "ActorSet": "{name} için sıradaki d20 → {values}",
+      "ActorUsed": "{name}: ayarlanmış d20 kullanıldı → {value}"
+    },
+    "Settings": {
+      "LogToChat": {
+        "Name": "Sohbete kaydet",
+        "Hint": "Her ayar, iptal ve kullanım GM'lere fısıltı olarak sohbete yazılır. Oyuncular görmez."
+      },
+      "mercyEnabled": {
+        "Name": "Merhamet modu",
+        "Hint": "Bir oyuncu üst üste birkaç kez düşük d20 atarsa sıradaki d20'si sessizce yükseltilir. GM'e bildirim gelir."
+      },
+      "mercyThreshold": {
+        "Name": "Merhamet: düşük sayılan zar",
+        "Hint": "Bu sayının altındaki doğal d20 düşük sayılır."
+      },
+      "mercyStreak": {
+        "Name": "Merhamet: üst üste kaç düşük zar",
+        "Hint": "Merhametin devreye girmesi için gereken düşük zar sayısı."
+      },
+      "mercyMin": {
+        "Name": "Merhamet: yeni değer en az",
+        "Hint": ""
+      },
+      "mercyMax": {
+        "Name": "Merhamet: yeni değer en çok",
+        "Hint": ""
+      }
+    },
+    "Keybinding": {
+      "OpenPanel": "Zar ayarı panelini aç"
+    },
+    "Warning": {
+      "Title": "Fated Rolls",
+      "Text": "Before you use it! You are a Gamemaster, the entire burden of existence rests on your shoulders. The power of fate is a corrupting force! Use it with caution.<br><em>- Durukan (mayflower)</em>",
+      "Ok": "I embrace the power."
+    },
+    "Panic": {
+      "Title": "Panic Roll!",
+      "Hint": "tek tık: sıradaki d20 bu değer olur",
+      "Value": "Değer",
+      "Everyone": "Herkes (yalnızca ilk d20)",
+      "Armed": "Panic Roll! Sıradaki d20 → {value} ({target})"
+    }
+  }
+}
