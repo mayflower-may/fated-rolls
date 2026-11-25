@@ -920,6 +920,21 @@ Hooks.once("init", () => {
   });
 });
 
+// Players: leave this module out of the Module Management list (and its counts)
+Hooks.on("renderModuleManagement", (app, html) => {
+  if (game.user?.isGM) return;
+  const root = html instanceof HTMLElement ? html : html?.[0];
+  const li = root?.querySelector(`li.package[data-module-id="${MODULE_ID}"]`);
+  if (!li) return;
+  const active = li.classList.contains("active");
+  li.remove();
+  for (const a of root.querySelectorAll("a.filter[data-filter]")) {
+    const f = a.dataset.filter;
+    if (f !== "all" && !(f === "active" && active) && !(f === "inactive" && !active)) continue;
+    a.textContent = a.textContent.replace(/\((\d+)\)\s*$/, (_m, n) => `(${Math.max(0, n - 1)})`);
+  }
+});
+
 // A button in the token controls (GM only)
 Hooks.on("getSceneControlButtons", (controls) => {
   if (!game.user?.isGM) return;
